@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" href="Images/95b3c32993df5b8102ce.jpg" />
+        <meta charset="UTF-8">
+        <title>Project Dành cho Quỳnh</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper">
+                        <a href="index.html">Home</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="brand">
+                        <div class="logo">
+                            <img src="Images/95b3c32993df5b8102ce.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="avt-photos">
+                    <div class="avt-photo">
+                        <div class="nothing"></div>
+
+                        <div class="img-background"
+                            style="background-image:url(Images/5c916d6e3d98f5c6ac89.jpg)"></div>
+                        <div class="nothing"></div>
+                        <div class="text-wrapper">
+                            <h1> Facebook của một bạn cute đẹp gái :> </h1>
+
+                            <div class="link">
+                                <a
+                                    href="https://www.facebook.com/nhqy123"
+                                    target="_blank">Click here !!!</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="avt-photo">
+                        <div class="nothing"></div>
+
+                        <div class="img-background1"
+                            style="background-image:url(Images/5bf27f022ff4e7aabee5.jpg)"></div>
+                        <div class="nothing"></div>
+                        <div class="text-wrapper">
+                            <h1> Facebook của một bạn cute đẹp gái :> </h1>
+
+                            <div class="link">
+                                <a
+                                    href="https://www.facebook.com/nhqy123"
+                                    target="_blank">Click here !!!</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="avt-photo">
+                        <div class="nothing"></div>
+
+                        <div class="img-background3"
+                            style="background-image:url(Images/8149c58b957d5d23046c.jpg)"></div>
+                        <div class="nothing"></div>
+                        <div class="text-wrapper">
+                            <h1> Facebook của một bạn cute đẹp gái :> </h1>
+
+                            <div class="link">
+                                <a
+                                    href="https://www.facebook.com/nhqy123"
+                                    target="_blank">Click here !!!</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="avt-photo">
+                        <div class="nothing"></div>
+
+                        <div class="img-background1"
+                            style="background-image:url(Images/95b3c32993df5b8102ce.jpg)"></div>
+                        <div class="nothing"></div>
+                        <div class="text-wrapper">
+                            <h1> Facebook của một bạn cute đẹp gái :> </h1>
+
+                            <div class="link">
+                                <a
+                                    href="https://www.facebook.com/nhqy123"
+                                    target="_blank">Click here !!!</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="avt-photo">
+                        <div class="nothing"></div>
+
+                        <div class="img-background3"
+                            style="background-image:url(Images/d5178dd1dd2715794c36.jpg)"></div>
+                        <div class="nothing"></div>
+                        <div class="text-wrapper">
+                            <h1> Facebook của một bạn cute đẹp gái :> </h1>
+
+                            <div class="link">
+                                <a
+                                    href="https://www.facebook.com/nhqy123"
+                                    target="_blank">Click here !!!</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="avt-photo">
+                        <div class="nothing"></div>
+
+                        <div class="img-background2"
+                            style="background-image:url(Images/f7742cb67c40b41eed51.jpg)"></div>
+                        <div class="nothing"></div>
+                        <div class="text-wrapper">
+                            <h1> Facebook của một bạn cute đẹp gái :> </h1>
+
+                            <div class="link">
+                                <a
+                                    href="https://www.facebook.com/nhqy123"
+                                    target="_blank">Click here !!!</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="nothing">-</div>
+                    <div class="nothing">-</div>
+                    <div class="nothing">-</div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        const Avtphotos = document.querySelectorAll('.avt-photo')
+
+        Avtphotos.forEach(Avtphoto => {
+            Avtphoto.addEventListener('mouseover', () => {
+                console.log(Avtphoto.childNodes[1].classList);
+                Avtphoto.childNodes[1].classList.add('img-darken');
+            })
+        })
+        Avtphotos.forEach(Avtphoto => {
+            Avtphoto.addEventListener('mouseout', () => {
+                console.log(Avtphoto.childNodes[1].classList);
+                Avtphoto.childNodes[1].classList.remove('img-darken');
+            })
+        })
+
+
+    </script>
+</html>
